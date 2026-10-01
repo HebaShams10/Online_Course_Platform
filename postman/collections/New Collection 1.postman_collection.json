@@ -1,0 +1,278 @@
+{
+  "info": {
+    "_postman_id": "101558d6-d7fe-416c-9760-fd50006fe924",
+    "name": "New Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "users",
+      "item": [
+        {
+          "name": "New Request",
+          "id": "638177f5-e255-4fb6-9227-405e59289b98",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"asmaa Shams\",\r\n  \"email\": \"asmaashams99@gmail.com\",\r\n  \"password\": \"password123\",\r\n  \"role\": \"admin\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/api/users",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "api",
+                "users"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "New Request",
+          "id": "ccf5e8b6-2372-42dc-8061-bd367a1107e6",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4000/api/users",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "api",
+                "users"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "New Request",
+          "id": "c9d18a5b-9759-47b2-b15f-445b7b52359b",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4000/api/users/6a8448183dafe33db80374e1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "api",
+                "users",
+                "6a8448183dafe33db80374e1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "New Request",
+          "id": "153dfce0-f8f0-4eb7-ab0b-372d0e2bdfa3",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n        \"name\": \"Abdallah Shams\",\r\n        \"email\": \"abdallahshams99@gmail.com\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/api/users/6a8448183dafe33db80374e1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "api",
+                "users",
+                "6a8448183dafe33db80374e1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "New Request",
+          "id": "0f11e9de-9d4e-4c81-b7a0-bbf6e71d33c5",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4000/api/users/6a8448183dafe33db80374e1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "api",
+                "users",
+                "6a8448183dafe33db80374e1"
+              ]
+            }
+          },
+          "response": []
+        }
+      ],
+      "id": "16359e4a-5869-4747-ad2f-0c0ec3cf116b"
+    },
+    {
+      "name": "tasks",
+      "item": [
+        {
+          "name": "New Request",
+          "id": "6246a8fa-f661-44e8-91eb-4f9915aaa73c",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"title\": \"Finish NodeJS Lab\",\r\n  \"description\": \"Complete day 3 requirements and test on postman\",\r\n  \"status\": \"In Progress\",\r\n  \"priority\": \"High\",\r\n  \"dueDate\": \"2026-08-20\",\r\n  \"assignedTo\": \"6a8446db3dafe33db80374de\" \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/api/tasks",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "api",
+                "tasks"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "New Request",
+          "id": "f4a382de-3a74-4fe8-8df4-7e3bbbd3ef1a",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4000/api/tasks",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "api",
+                "tasks"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "New Request",
+          "id": "6471b1c5-7bdf-431a-8229-d4908d7d38fb",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"priority\": \"Low\",\r\n  \"dueDate\": \"2026-08-28\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/api/tasks/6a84499e3dafe33db80374e2",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "api",
+                "tasks",
+                "6a84499e3dafe33db80374e2"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "New Request",
+          "id": "ca1545aa-d5b3-4300-aab7-1788b470f5ee",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4000/api/tasks/6a84499e3dafe33db80374e2",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "api",
+                "tasks",
+                "6a84499e3dafe33db80374e2"
+              ]
+            }
+          },
+          "response": []
+        }
+      ],
+      "id": "6cd4b667-893f-4630-a4f6-7d56512bb144"
+    },
+    {
+      "name": "health check",
+      "item": [
+        {
+          "name": "New Request",
+          "id": "6666ccff-6016-4be6-917f-67da0aff636b",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:4000/api/health",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "api",
+                "health"
+              ]
+            }
+          },
+          "response": []
+        }
+      ],
+      "id": "a928fae3-e373-4a2c-a2e9-773d015787a3"
+    }
+  ]
+}
