@@ -4,6 +4,10 @@ This is a complete Full-Stack application for an Online Course Platform, built u
 
 This project was built as the Final Individual Project for the Node.js course.
 
+## 🚀 Live Demo (Bonus)
+- **Frontend (UI):** [https://project-node-js-du8j-weld.vercel.app](https://project-node-js-du8j-weld.vercel.app)
+- **Backend API:** [https://project-node-js-peach.vercel.app/api/health](https://project-node-js-peach.vercel.app/api/health)
+
 ## 🌟 Extra Features Implemented (Bonus Points)
 - **React Frontend:** Built a complete UI to interact with the API, demonstrating Full-Stack capabilities beyond the backend requirements.
 - **Search & Filtering:** Added search by keyword and category filtering to the courses list.
