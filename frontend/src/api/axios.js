@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:4000/api', // Backend URL
+  baseURL: 'https://project-node-js-peach.vercel.app/api', // Backend URL on Vercel
 });
 
 // Add token to requests automatically
